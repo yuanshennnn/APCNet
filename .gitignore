@@ -1,0 +1,33 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+
+# ---- 训练产物 / 权重 ----
+output/
+wandb/
+*.pth
+*.ckpt
+
+# ---- 数据集（单独分发，见 README）----
+dataset/
+data/
+*.zip
+ASIN-master-main/data/*.h5
+
+# ---- 依赖包 ----
+*.whl
+
+# ---- 日志 ----
+*.log
+logdir*/
+logs/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
